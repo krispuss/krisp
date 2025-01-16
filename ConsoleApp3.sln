@@ -12,23 +12,23 @@ namespace ConsoleApp3
             operation = Convert.ToChar(Console.ReadLine());
 
             Console.WriteLine("Enter second number: ");
-            num2 = Convert.ToDouble(Console.ReadLine());
+            chislo1 = Convert.ToDouble(Console.ReadLine());
 
             switch (operation)
             {
                 case '+':
-                    Console.WriteLine("Result: {0}", num1 + num2);
+                    Console.WriteLine("Result: {0}", chislo1 + chislo2);
                     break;
                 case '-':
-                    Console.WriteLine("Result: {0}", num1 - num2);
+                    Console.WriteLine("Result: {0}", chislo1 - chislo2);
                     break;
                 case '*':
-                    Console.WriteLine("Result: {0}", num1 * num2);
+                    Console.WriteLine("Result: {0}", chislo1 * chislo2);
                     break;
                 case '/':
-                    if (num2 != 0)
+                    if (chislo2 != 0)
                     {
-                        Console.WriteLine("Result: {0}", num1 / num2);
+                        Console.WriteLine("Result: {0}", chislo1 / chislo2);
                     }
                     else
                     {
